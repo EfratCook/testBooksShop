@@ -1,15 +1,7 @@
 package Tests;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
-import java.util.List;
-
 public class Book {
-    WebDriver driver;
     private String publisher;
     private String author;
     private String title;
@@ -26,7 +18,7 @@ public class Book {
 
 
     public String toString() {
-        return "title" +title + "author:" + author + "publisher:"+publisher;
+        return "title: " +title + " author: " + author + " publisher: "+publisher;
     }
 
 }
